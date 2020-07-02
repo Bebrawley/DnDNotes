@@ -1,0 +1,41 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [        
+        {
+            "label": "Compile Notes",
+            "type": "shell",
+            "command": "generate-md --layout github --input A:\\Dev\\DnDNotes\\Farder\\Notes.md --output A:\\Dev\\DnDNotes\\Farder\\Notes.html",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn":["Compile Portals"],
+        },
+        {
+            "label": "Compile Commands",
+            "type": "shell",
+            "command": "generate-md --layout github --input A:\\Dev\\DnDNotes\\Farder\\Commands.md --output A:\\Dev\\DnDNotes\\Farder\\Commands.html",
+            "problemMatcher": [],
+            "group": "build",
+            "dependsOn":["Compile ReadMe"],
+        },
+        {
+            "label": "Compile Portals",
+            "type": "shell",
+            "command": "generate-md --layout github --input A:\\Dev\\DnDNotes\\Farder\\Portals.md --output A:\\Dev\\DnDNotes\\Farder\\Portals.html",
+            "problemMatcher": [],
+            "group": "build",
+            "dependsOn":["Compile Commands"],
+        },
+        {
+            "label": "Compile ReadMe",
+            "type": "shell",
+            "command": "generate-md --layout github --input A:\\Dev\\DnDNotes\\README.md --output A:\\Dev\\DnDNotes\\README.html",
+            "problemMatcher": [],
+            "group": "build"
+        }
+    ]
+  }
