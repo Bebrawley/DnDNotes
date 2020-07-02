@@ -21,9 +21,13 @@ This is Organized by the Characters that I have. There are links below broken ou
 -----------------------------------------------------------------------------------------
 # Useful things
 <br>
-* https://stackedit.io/
-* https://www.tablesgenerator.com/markdown_tables
 
-* https://code.visualstudio.com/docs/languages/markdown
+* <a href="https://stackedit.io/">Stackedit</a>
 
-* http://nestacms.com/docs/creating-content/markdown-cheat-sheet
+* <a href="https://www.tablesgenerator.com/markdown_tables">Markdown Tables</a>
+
+* <a href="https://code.visualstudio.com/docs/languages/markdown">Markdown Code</a>
+
+* <a href="http://nestacms.com/docs/creating-content/markdown-cheat-sheet">Markdown Cheat Sheet</a>
+
+* <a href="https://github.com/mixu/markdown-styles">Markdown Style Sheet</a>
